@@ -1,0 +1,14 @@
+{
+  "name": "mapdragon",
+  "version": "1.0.0",
+  "description": "draw maps, leave blanks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Max White",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
