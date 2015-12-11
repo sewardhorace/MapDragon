@@ -1,0 +1,123 @@
+body{
+  background-color: rgb(152, 198, 233);
+}
+
+#canvas-container {
+  /*needs to match dimensions of child canvas*/
+  position: relative;
+  width:500px;
+  height:500px;
+  margin: auto;
+}
+canvas{
+  background-color: white;
+  position: absolute;
+  z-index: 1;
+}
+#popup {
+  position:absolute;
+  z-index: 2;
+  background-color: #303030;
+  max-height:200px;
+  width: 150px;
+  border-radius: 4px;
+  padding-bottom:4px;
+  font-family: sans-serif;
+}
+.hidden{
+  display: none;
+}
+.popup-nav{
+  height: 20px;
+  width: auto;
+  background-color: #a2a2a2;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-top: 2px solid #b6b6b6;
+  border-left: 2px solid #747373;
+  border-right: 2px solid #999999;
+  margin-bottom: 4px;
+}
+.nav-item{
+  height: 14px;
+  width:16px;
+  margin:2px;
+  background-color: #b0b0b0;
+  border-radius: 2px;
+  text-align: center;
+  line-height: 13px;
+  border-bottom: 1px solid #747373;
+  border-top: 1px solid #cbc8c8;
+}
+.nav-item:hover{
+  cursor: pointer;
+  border-top: 1px solid #bdbbbb;
+  background-color: #8c8c8c;
+  border-bottom: 1px solid #706d6d;
+}
+.nav-title{
+  width: 94px;
+  height: 10px;
+  margin: 2px;
+  padding: 1px 2px;
+  font-size: 10px;
+  outline: none;
+}
+.nav-left{
+  float: left;
+  display: inline-block;
+}
+.nav-right{
+  float: right;
+  display: inline-block;
+}
+.popup-window {
+  max-height: 174px;
+  width: auto;
+  overflow: scroll;
+  margin:0px 4px;
+}
+.popup-options{
+  margin:0;
+  padding:0;
+}
+.popup-item{
+  margin:0;
+  margin-top: 4px;
+  padding:4px;
+  background-color: white;
+  list-style-type: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+.popup-item:first-child{
+  margin:0;
+}
+.popup-item:hover{
+  cursor: pointer;
+}
+/*.popup-item input{
+  display: block;
+  margin: 4px auto;
+  width: auto;
+}*/
+.popup-item.selected {
+  border: 4px solid #97CEFF;
+  padding: 0px;
+}
+/*.popup-icon {
+  background-image: url(../images/cowboyspritestrip.png);
+  background-repeat: repeat-x;
+  height:64px;
+  width:64px;
+  margin:auto;
+}*/
+.popup-icon-frame{
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+}
+.popup-icon-image{
+  display: block;
+  position: absolute;
+}
