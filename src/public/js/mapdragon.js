@@ -24,7 +24,6 @@ function Popup(){
   }
 
   this.keyPressed = function(e){
-    console.log(e);
     if(e.keyCode=='13'){
       self.addButtonClicked();
     }
