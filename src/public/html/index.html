@@ -12,14 +12,31 @@
 <body>
   <h2>Double-click to add icons to the canvas</h2>
   <div id="canvas-container">
-    <canvas id="exampleCanvas" width="500" height="500">
+    <canvas id="map-canvas" width="500" height="500">
       <p>You don't have canvas?</p>
     </canvas>
   </div>
+  <center>
+    <button id="save-btn">
+      Save
+    </button>
+    <button id="load-btn">
+      Load
+    </button>
+  </center>
 
   <script src="static/js/steading.js"></script>
   <script src="static/js/mapdragon.js"></script>
-
+  <script>
+  var saveBtn = document.getElementById("save-btn");
+  saveBtn.onclick = function (e) {
+    alert("clicked save");
+  };
+  var loadBtn = document.getElementById("load-btn");
+  loadBtn.onclick = function(e) {
+    alert("clicked load");
+  };
+  </script>
 
 </body>
 </html>

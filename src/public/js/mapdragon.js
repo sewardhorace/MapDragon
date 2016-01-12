@@ -332,7 +332,7 @@ CanvasState.prototype.getMouse = function(e) {
 init();
 
 function init() {
-  var s = new CanvasState(document.getElementById('exampleCanvas'));
+  var s = new CanvasState(document.getElementById('map-canvas'));
 
   var image = new Image();
   image.src = 'static/img/cowboyspritestrip.png';
