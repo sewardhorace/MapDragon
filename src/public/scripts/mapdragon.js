@@ -343,4 +343,6 @@ function init() {
     name: "Title",
     width: 64
   }));
+  var data = s.ctx.getImageData(0,0,500,500);
+  console.log(data);
 }
