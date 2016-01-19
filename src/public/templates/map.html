@@ -1,5 +1,10 @@
-<div id="canvas-container">
-  <canvas id="map-canvas" width="500" height="500">
-    <p>You don't have canvas?</p>
-  </canvas>
-</div>
+<canvas
+  ng-dblclick="canvasState.openPopup($event)"
+  ng-mousedown="canvasState.onMousedown($event)"
+  ng-mouseup="canvasState.onMouseup()"
+  ng-mousemove="canvasState.onMousemove($event)"
+  id="map-canvas"
+  width="500"
+  height="500">
+  <p>You don't have canvas? You don't have canvas..</p>
+</canvas>

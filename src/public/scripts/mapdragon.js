@@ -155,12 +155,8 @@ function Popup(){
   init();
 }
 
-//December 2015 - the following CanvasState code was modified from code by Simon Sarris
-// www.simonsarris.com
-// sarris@acm.org
-// Last update December 2011
-// Free to use and distribute at will
-// So long as you are nice to people, etc
+//shoutout to Simon Sarris for his tutorial on drawing shapes to the canvas
+//http://simonsarris.com/blog/510-making-html5-canvas-useful
 
 function CanvasState(canvas) {
 
